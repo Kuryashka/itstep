@@ -1,0 +1,5 @@
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+c = input("Enter third number: ")
+z = int(str(a) + str(b) + str(c))
+print(z)
