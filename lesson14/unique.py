@@ -1,4 +1,4 @@
-def intersect(tup1=(1, 2, 3), tup2=(1, 3, 4), tup3=(1, 2, 3)):
+def intersect(tup1, tup2, tup3):
     l = []
     for i in tup1:
         if i in tup1 and i not in tup2 and i not in tup3:
