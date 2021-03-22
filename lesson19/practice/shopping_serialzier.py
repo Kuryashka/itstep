@@ -1,3 +1,4 @@
+import json
 import pickle
 shopping_list_example = [
 {
