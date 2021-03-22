@@ -19,3 +19,6 @@ shopping_list_example = [
 ]
 with open('shopping_list_example.pickle', 'wb') as f:
     print(pickle.dumps(shopping_list_example)
+         
+with open('shopping_list_example.json', 'wb') as f:
+    print(json.dumps(shopping_list_example))
