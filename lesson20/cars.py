@@ -6,7 +6,6 @@ class Cars:
         self.engine_capacity = float(engine_capacity)
         self.color = color
         self.price = int(price)
-        self.result = []
     
     def __str__(self):
         return f'name : {self.name}\nyear : {self.year}\nmanufacturer : {self.manufacturer}\nengine_capacity : {self.engine_capacity}\ncolor : {self.color}\nprice : {self.price}'
