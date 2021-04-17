@@ -36,7 +36,8 @@ except ValueError:
     print("Enter valid type")
          
 
-country = Country(name, capital, continent, population, cities_names)
-print(country)
+if __name__ == '__main__':
+    country = Country(name, capital, continent, population, cities_names)
+    print(country)
 
         
