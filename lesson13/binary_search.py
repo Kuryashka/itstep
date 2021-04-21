@@ -7,7 +7,7 @@ a.sort()
 
 print(a)
 
-value = int(input())
+value = int(input("Choose an element in the list"))
 
 mid = len(a) // 2
 low = 0
