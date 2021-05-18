@@ -5,7 +5,7 @@ def only_add_numbers(func):
             if i % 2 == 0:
                 print('Please, choose odd arguments!')
                 return z
-            return func(args)
+        return func(args)
     return wrapper
 
 @only_add_numbers
